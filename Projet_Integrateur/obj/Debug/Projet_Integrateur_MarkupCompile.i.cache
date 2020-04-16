@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\
+C:\ProjetsC#\Gestion-des-admissions-NLH\Projet_Integrateur\obj\Debug\
 Projet_Integrateur
 none
 false
 DEBUG;TRACE
-C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\App.xaml
+C:\ProjetsC#\Gestion-des-admissions-NLH\Projet_Integrateur\App.xaml
 12-353241736
 21750853300
 34-1063850835
-18-1542404504
+18-1511707282
 AjouterAdmission.xaml;AjouterCompanie.xaml;AjouterSpecialite.xaml;Consultations.xaml;Facture.xaml;FenetreAdministrateur.xaml;FenetreMedecin.xaml;FenetrePrepose.xaml;GestionMedecin.xaml;Login.xaml;MainWindow.xaml;RecherchePatient.xaml;
 
 True
