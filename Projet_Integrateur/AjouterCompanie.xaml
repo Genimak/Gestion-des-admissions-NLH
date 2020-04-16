@@ -1,0 +1,114 @@
+﻿<Window x:Class="Projet_Integrateur.AjouterCompanie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_Integrateur"
+        mc:Ignorable="d"
+        Title="AjouterCompanie" Height="264.532" Width="600.384" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" >
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="TabButton">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="Orange" BorderBrush="#ccc" BorderThickness="0,1,1,0" >
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" >
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                                            <GradientStop Color="#FFFFD190" Offset="0.35"/>
+                                            <GradientStop Color="Orange" Offset="0.95"/>
+                                            <GradientStop Color="#FFFFD190" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter  Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <TranslateTransform Y="1.0" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="TabButton3">
+            <Setter Property="Background" Value="Beige" />
+            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+
+                        <Border CornerRadius="0,0,10,10" Background="CORNFLOWERBLUE" BorderBrush="#ccc" BorderThickness="0,1,1,0" >
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" >
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                                            <GradientStop Color="#FFFFD190" Offset="0.35"/>
+                                            <GradientStop Color="Orange" Offset="0.95"/>
+                                            <GradientStop Color="#FFFFD190" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter  Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <TranslateTransform Y="1.0" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+
+
+                    </ControlTemplate>
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,2.8,5.8">
+        <GroupBox Header="Assurance" HorizontalAlignment="Left" Height="129" Margin="24,28,0,0" VerticalAlignment="Top" Width="259" FontWeight="Bold" FontStyle="Italic" FontFamily="Times New Roman"/>
+
+        <Button Style="{StaticResource TabButton}" x:Name="tbnAjout" Content="Ajouter" HorizontalAlignment="Left" Margin="27,200,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.194,0.57" Click="tbnAjout_Click" IsDefault="True"/>
+        <Button Style="{StaticResource TabButton}" x:Name="tbnQuitter" Content="Quitter" HorizontalAlignment="Left" Margin="452,200,0,0" VerticalAlignment="Top" Width="118" Click="tbnQuitter_Click" IsCancel="True"/>
+        <Label Content="ID Companie:" HorizontalAlignment="Left" Margin="24,56,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Nom Companie:" HorizontalAlignment="Left" Margin="24,87,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox  x:Name="txtIdComp"  HorizontalAlignment="Left" Height="26" Margin="126,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127" PreviewKeyDown="txtIdComp_PreviewKeyDown"/>
+        <TextBox  x:Name="txtNomComp" HorizontalAlignment="Left" Height="23" Margin="126,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127"/>
+        <DataGrid x:Name="dgAssurance"  AlternatingRowBackground="#FEFEE2" RowBackground="#FDF1B8" HorizontalAlignment="Left" Height="143" Margin="304,38,0,0" VerticalAlignment="Top" Width="266" AutoGenerateColumns="False" ItemsSource="{Binding}" >
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="ID Assurance" Binding="{Binding idCompanie}" />
+                <DataGridTextColumn Header="Nom Companie " Binding="{Binding nomCompagnie}" />
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Supprimer" Click="MenuItem_Click">
+                        <MenuItem.Icon>
+                            <Image Source="Images/delete.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+        <Button Style="{StaticResource TabButton}" x:Name="tbnAnnuler" Content="Annuler" HorizontalAlignment="Left" Margin="173,200,0,0" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.194,0.57" Click="tbnAnnuler_Click"/>
+
+    </Grid>
+</Window>

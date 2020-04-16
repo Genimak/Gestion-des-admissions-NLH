@@ -1,0 +1,133 @@
+﻿<Window x:Class="Projet_Integrateur.RecherchePatient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet_Integrateur"
+        mc:Ignorable="d"
+        Title="Chercher Patient" Height="635.114" Width="1087.771"  WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="TabButton">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="10" Background="Orange" BorderBrush="#ccc" BorderThickness="0,1,1,0" >
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" >
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                                            <GradientStop Color="#FFFFD190" Offset="0.35"/>
+                                            <GradientStop Color="Orange" Offset="0.95"/>
+                                            <GradientStop Color="#FFFFD190" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter  Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <TranslateTransform Y="1.0" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="TabButton3">
+            <Setter Property="Background" Value="Beige" />
+            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+
+                        <Border CornerRadius="0,0,10,10" Background="CORNFLOWERBLUE" BorderBrush="#ccc" BorderThickness="0,1,1,0" >
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White" />
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter Property="Background" >
+                                    <Setter.Value>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1" >
+                                            <GradientStop Color="#FFFFD190" Offset="0.35"/>
+                                            <GradientStop Color="Orange" Offset="0.95"/>
+                                            <GradientStop Color="#FFFFD190" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter  Property="RenderTransform" >
+                                    <Setter.Value>
+                                        <TranslateTransform Y="1.0" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+
+
+                    </ControlTemplate>
+                </Setter.Value>
+
+            </Setter>
+
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <GroupBox Header="Chercher Patient" HorizontalAlignment="Left" Height="64" Margin="21,67,0,0" VerticalAlignment="Top" Width="343" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold">
+            <Image Source="images/cherche.jpg" Margin="166,-46,3.4,-100.4"/>
+        </GroupBox>
+
+        <GroupBox Header="" HorizontalAlignment="Left" Height="277" Margin="21,160,0,0" VerticalAlignment="Top" Width="343">
+            <DatePicker  x:Name="txtDateNais" HorizontalAlignment="Left" Margin="157,113,0,0" VerticalAlignment="Top" Width="118"/>
+        </GroupBox>
+
+        <GroupBox Header="Adresse patient" HorizontalAlignment="Left" Height="88" Margin="21,442,0,0" VerticalAlignment="Top" Width="343" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold"/>
+
+        <Label Content="Téléphonne :" HorizontalAlignment="Left" Margin="35,248,0,0" VerticalAlignment="Top" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold" AutomationProperties.IsRowHeader="True"/>
+        <Label Content="Ville :" HorizontalAlignment="Left" Margin="35,329,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold"/>
+        <Label Content="Province :" HorizontalAlignment="Left" Margin="35,359,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold"/>
+        <Label Content="Code Postal :" HorizontalAlignment="Left" Margin="35,389,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold"/>
+        <TextBox x:Name="txtPrenom" HorizontalAlignment="Left" Height="23" Margin="182,215,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtAdresse" HorizontalAlignment="Left" Height="53" Margin="35,464,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="314"/>
+        <TextBox x:Name="txtVille" HorizontalAlignment="Left" Height="23" Margin="182,327,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtProvince" HorizontalAlignment="Left" Height="23" Margin="182,359,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCodePostal" HorizontalAlignment="Left" Height="23" Margin="182,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <GroupBox Header="Companie d'assurance" HorizontalAlignment="Left" Height="78" Margin="700,67,0,0" VerticalAlignment="Top" Width="323" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold">
+            <TextBox x:Name="txtCompanie"  HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="268"/>
+        </GroupBox>
+        <GroupBox Header="Contact parent" HorizontalAlignment="Left" Height="78" Margin="394,67,0,0" VerticalAlignment="Top" Width="275" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold"/>
+        <GroupBox Header="historique d'admissions du patient" HorizontalAlignment="Left" Height="275" Margin="391,199,0,0" VerticalAlignment="Top" Width="650" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold"/>
+        <DataGrid x:Name="dgPatientRech" AlternatingRowBackground="#B0E0E6" RowBackground="#87CEFA" HorizontalAlignment="Left"  Height="240" Margin="409,219,0,0" VerticalAlignment="Top" Width="614" AutoGenerateColumns="False" ItemsSource="{Binding}" IsReadOnly="True">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Header="ID Admission" Binding="{Binding idAdmission}" />
+                <DataGridTextColumn Header="Médecin traitant" Binding="{Binding Medecin}" />
+                <DataGridTextColumn Header="Date Admission " Binding="{Binding dateAdmission, StringFormat=\{0:dd/MM/yyyy\}}" />
+                <DataGridTextColumn Header="Date Congé " Binding="{Binding dateConge, StringFormat=\{0:dd/MM/yyyy\}}" />
+                <DataGridTextColumn Header="Lit occupé" Binding="{Binding numLit}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Style="{StaticResource TabButton3}" x:Name="btnAdmission"  Content="Admission" HorizontalAlignment="Left" Margin="409,479,0,0" VerticalAlignment="Top" Width="260" Height="42" Click="btnAdmission_Click"/>
+        <Button Style="{StaticResource TabButton3}" Content="Quitter" HorizontalAlignment="Left" Margin="774,479,0,0" VerticalAlignment="Top" Width="249" Height="42" Click="Button_Click"/>
+        <TextBox x:Name="txtContactParent" HorizontalAlignment="Left" Height="23" Margin="418,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="205"/>
+        <Label Content="Date de naissance :" HorizontalAlignment="Left" Margin="35,287,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold"/>
+        <Label Content="Prénom :" HorizontalAlignment="Left" Margin="35,214,0,0" VerticalAlignment="Top" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold" AutomationProperties.IsRowHeader="True"/>
+        <TextBox x:Name="txtTel" HorizontalAlignment="Left" Height="23" Margin="182,248,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nom :" HorizontalAlignment="Left" Margin="35,180,0,0" VerticalAlignment="Top" FontFamily="Tim Patient unPatient = cb_nssPatient.SelectedItem as Patient;             d_naissance.SelectedDate = unPatient.dateNaissance;             nom.Text = Convert.ToString(unPatient.nom);             prenom.Text = Convert.ToString(unPatient.prenom);             adresse.Text = Convert.ToString(unPatient.adresse);             ville.Text = Convert.ToString(unPatient.ville);             province.Text = Convert.ToString(unPatient.province);             codePoste.Text = Convert.ToString(unPatient.codePostal);             telephone.Text = Convert.ToString(unPatient.telephone);                         idCompanie.Text = Convert.ToString(unPatient.idCompanie);             refParent.Text = Convert.ToString(unPatient.refParent);es New Roman" FontStyle="Italic" FontWeight="Bold" AutomationProperties.IsRowHeader="True"/>
+        <TextBox x:Name="txtNom" HorizontalAlignment="Left" Height="23" Margin="182,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtRecherche" HorizontalAlignment="Left" Height="23" Margin="74,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" PreviewKeyDown="txtRecherche_PreviewKeyDown"/>
+        <Button Style="{StaticResource TabButton}"  x:Name="btnRecherche"  Content="Recherche" HorizontalAlignment="Left" Margin="220,86,0,0" VerticalAlignment="Top" Width="78" Click="btnRecherche_Click" Height="36" RenderTransformOrigin="0.45,0.663"/>
+
+    </Grid>
+</Window>

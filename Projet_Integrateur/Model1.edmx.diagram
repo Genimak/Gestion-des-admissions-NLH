@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="55f95695baf64ed59f00fe5f4dc57813" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_HopitalModel.CompagnieAssurance" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.Departement" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.DossierAdmission" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.Lit" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.Medecin" Width="1.5" PointX="3" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.Parent" Width="1.5" PointX="0.625" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.Patient" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.Specialite" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.sysdiagram" Width="1.5" PointX="1.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_HopitalModel.TypeLit" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <AssociationConnector Association="DB_HopitalModel.fk_patient_ass" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.fk_lit_dep" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.fk_lit" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.fk_medecin_doss" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.fk_patient_doss" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.fk_lit_type" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.FK_Medecin_Specialite" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_HopitalModel.fk_patient_parent" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

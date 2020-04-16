@@ -1,0 +1,168 @@
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csprojResolveAssemblyReference.cache
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\App.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.cache
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.lref
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe.config
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.pdb
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.g.resources
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.Properties.Resources.resources
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csproj.GenerateResource.Cache
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.exe
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.pdb
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterMedecin.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterPatient.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\ModifierMedecin.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\SupprimerMedecin.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_Content.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.dll
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.xml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\fr\EntityFramework.resources.dll
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterMedecin.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterPatient.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\ModifierMedecin.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\SupprimerMedecin.baml
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.g.cs
+C:\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe.config
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.pdb
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.dll
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.dll
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.xml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.xml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\fr\EntityFramework.resources.dll
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csprojResolveAssemblyReference.cache
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterMedecin.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterPatient.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\ModifierMedecin.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\SupprimerMedecin.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\App.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_Content.g.cs
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.cache
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.lref
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterMedecin.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterPatient.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\ModifierMedecin.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\SupprimerMedecin.baml
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.g.resources
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.Properties.Resources.resources
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csproj.GenerateResource.Cache
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.exe
+E:\sauvgarde c#\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.pdb
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe.config
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.pdb
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.dll
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.xml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csprojResolveAssemblyReference.cache
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Consultations.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Facture.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\App.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_Content.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.cache
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.lref
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Consultations.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Facture.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.g.resources
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.Properties.Resources.resources
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csproj.GenerateResource.Cache
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.exe
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.pdb
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterSpecialite.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterSpecialite.baml
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\GestionMedecin.g.cs
+C:\Users\ns_mak\Desktop\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\GestionMedecin.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe.config
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.exe
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\Projet_Integrateur.pdb
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.dll
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.dll
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.xml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\EntityFramework.SqlServer.xml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\bin\Debug\fr\EntityFramework.resources.dll
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csprojResolveAssemblyReference.cache
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterSpecialite.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Consultations.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Facture.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\GestionMedecin.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\App.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_Content.g.cs
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.cache
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur_MarkupCompile.lref
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterAdmission.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterCompanie.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\AjouterSpecialite.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Consultations.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Facture.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreAdministrateur.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetreMedecin.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\FenetrePrepose.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\GestionMedecin.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Login.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\MainWindow.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\RecherchePatient.baml
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.g.resources
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.Properties.Resources.resources
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.csproj.GenerateResource.Cache
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.exe
+C:\Nouveau dossier (2)\Projet Intégrateur\Projet_Integrateur\Projet_Integrateur\obj\Debug\Projet_Integrateur.pdb

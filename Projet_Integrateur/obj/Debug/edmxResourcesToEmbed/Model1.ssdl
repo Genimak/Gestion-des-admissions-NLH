@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_HopitalModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CompagnieAssurance">
+    <Key>
+      <PropertyRef Name="idCompanie" />
+    </Key>
+    <Property Name="idCompanie" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="nomCompagnie" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Departement">
+    <Key>
+      <PropertyRef Name="idDepartement" />
+    </Key>
+    <Property Name="idDepartement" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="nomDepartement" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DossierAdmission">
+    <Key>
+      <PropertyRef Name="idAdmission" />
+    </Key>
+    <Property Name="idAdmission" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="chirurgieProgramme" Type="bit" />
+    <Property Name="dateAdmission" Type="date" />
+    <Property Name="dateChirurgie" Type="date" />
+    <Property Name="dateConge" Type="date" />
+    <Property Name="prixTv" Type="float" />
+    <Property Name="prixTel" Type="float" />
+    <Property Name="prixCh" Type="float" />
+    <Property Name="numLit" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="nss" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="idMedecin" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Lit">
+    <Key>
+      <PropertyRef Name="numLit" />
+    </Key>
+    <Property Name="numLit" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="occupe" Type="bit" />
+    <Property Name="numeroType" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="idDepartement" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Medecin">
+    <Key>
+      <PropertyRef Name="idMedecin" />
+    </Key>
+    <Property Name="idMedecin" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="idSpecialite" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Parent">
+    <Key>
+      <PropertyRef Name="refParent" />
+    </Key>
+    <Property Name="refParent" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="adresse" Type="nvarchar" MaxLength="50" />
+    <Property Name="ville" Type="nvarchar" MaxLength="50" />
+    <Property Name="province" Type="nvarchar" MaxLength="50" />
+    <Property Name="codepostal" Type="nvarchar" MaxLength="10" />
+    <Property Name="telephone" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Patient">
+    <Key>
+      <PropertyRef Name="nss" />
+    </Key>
+    <Property Name="nss" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="dateNaissance" Type="date" />
+    <Property Name="nom" Type="nvarchar" MaxLength="50" />
+    <Property Name="prenom" Type="nvarchar" MaxLength="50" />
+    <Property Name="adresse" Type="nvarchar" MaxLength="50" />
+    <Property Name="ville" Type="nvarchar" MaxLength="50" />
+    <Property Name="province" Type="nvarchar" MaxLength="50" />
+    <Property Name="codePostal" Type="nvarchar" MaxLength="10" />
+    <Property Name="telephone" Type="nvarchar" MaxLength="10" />
+    <Property Name="idCompanie" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="refParent" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Specialite">
+    <Key>
+      <PropertyRef Name="idSpecialite" />
+    </Key>
+    <Property Name="idSpecialite" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="descSpecialite" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TypeLit">
+    <Key>
+      <PropertyRef Name="numeroType" />
+    </Key>
+    <Property Name="numeroType" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="description" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="fk_lit">
+    <End Role="Lit" Type="Self.Lit" Multiplicity="1" />
+    <End Role="DossierAdmission" Type="Self.DossierAdmission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lit">
+        <PropertyRef Name="numLit" />
+      </Principal>
+      <Dependent Role="DossierAdmission">
+        <PropertyRef Name="numLit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_lit_dep">
+    <End Role="Departement" Type="Self.Departement" Multiplicity="1" />
+    <End Role="Lit" Type="Self.Lit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departement">
+        <PropertyRef Name="idDepartement" />
+      </Principal>
+      <Dependent Role="Lit">
+        <PropertyRef Name="idDepartement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_lit_type">
+    <End Role="TypeLit" Type="Self.TypeLit" Multiplicity="1" />
+    <End Role="Lit" Type="Self.Lit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeLit">
+        <PropertyRef Name="numeroType" />
+      </Principal>
+      <Dependent Role="Lit">
+        <PropertyRef Name="numeroType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_medecin_doss">
+    <End Role="Medecin" Type="Self.Medecin" Multiplicity="1" />
+    <End Role="DossierAdmission" Type="Self.DossierAdmission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Medecin">
+        <PropertyRef Name="idMedecin" />
+      </Principal>
+      <Dependent Role="DossierAdmission">
+        <PropertyRef Name="idMedecin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Medecin_Specialite">
+    <End Role="Specialite" Type="Self.Specialite" Multiplicity="0..1" />
+    <End Role="Medecin" Type="Self.Medecin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Specialite">
+        <PropertyRef Name="idSpecialite" />
+      </Principal>
+      <Dependent Role="Medecin">
+        <PropertyRef Name="idSpecialite" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_patient_ass">
+    <End Role="CompagnieAssurance" Type="Self.CompagnieAssurance" Multiplicity="1" />
+    <End Role="Patient" Type="Self.Patient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompagnieAssurance">
+        <PropertyRef Name="idCompanie" />
+      </Principal>
+      <Dependent Role="Patient">
+        <PropertyRef Name="idCompanie" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_patient_doss">
+    <End Role="Patient" Type="Self.Patient" Multiplicity="1" />
+    <End Role="DossierAdmission" Type="Self.DossierAdmission" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Patient">
+        <PropertyRef Name="nss" />
+      </Principal>
+      <Dependent Role="DossierAdmission">
+        <PropertyRef Name="nss" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_patient_parent">
+    <End Role="Parent" Type="Self.Parent" Multiplicity="1" />
+    <End Role="Patient" Type="Self.Patient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parent">
+        <PropertyRef Name="refParent" />
+      </Principal>
+      <Dependent Role="Patient">
+        <PropertyRef Name="refParent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_HopitalModelStoreContainer">
+    <EntitySet Name="CompagnieAssurance" EntityType="Self.CompagnieAssurance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departement" EntityType="Self.Departement" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DossierAdmission" EntityType="Self.DossierAdmission" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lit" EntityType="Self.Lit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Medecin" EntityType="Self.Medecin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parent" EntityType="Self.Parent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Patient" EntityType="Self.Patient" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Specialite" EntityType="Self.Specialite" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeLit" EntityType="Self.TypeLit" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_lit" Association="Self.fk_lit">
+      <End Role="Lit" EntitySet="Lit" />
+      <End Role="DossierAdmission" EntitySet="DossierAdmission" />
+    </AssociationSet>
+    <AssociationSet Name="fk_lit_dep" Association="Self.fk_lit_dep">
+      <End Role="Departement" EntitySet="Departement" />
+      <End Role="Lit" EntitySet="Lit" />
+    </AssociationSet>
+    <AssociationSet Name="fk_lit_type" Association="Self.fk_lit_type">
+      <End Role="TypeLit" EntitySet="TypeLit" />
+      <End Role="Lit" EntitySet="Lit" />
+    </AssociationSet>
+    <AssociationSet Name="fk_medecin_doss" Association="Self.fk_medecin_doss">
+      <End Role="Medecin" EntitySet="Medecin" />
+      <End Role="DossierAdmission" EntitySet="DossierAdmission" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Medecin_Specialite" Association="Self.FK_Medecin_Specialite">
+      <End Role="Specialite" EntitySet="Specialite" />
+      <End Role="Medecin" EntitySet="Medecin" />
+    </AssociationSet>
+    <AssociationSet Name="fk_patient_ass" Association="Self.fk_patient_ass">
+      <End Role="CompagnieAssurance" EntitySet="CompagnieAssurance" />
+      <End Role="Patient" EntitySet="Patient" />
+    </AssociationSet>
+    <AssociationSet Name="fk_patient_doss" Association="Self.fk_patient_doss">
+      <End Role="Patient" EntitySet="Patient" />
+      <End Role="DossierAdmission" EntitySet="DossierAdmission" />
+    </AssociationSet>
+    <AssociationSet Name="fk_patient_parent" Association="Self.fk_patient_parent">
+      <End Role="Parent" EntitySet="Parent" />
+      <End Role="Patient" EntitySet="Patient" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
